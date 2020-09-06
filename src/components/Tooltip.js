@@ -122,7 +122,6 @@ export class Tooltip {
         text.alpha = 0;
         textBg.alpha = 0;
         textBg.shadow = new createjs.Shadow('rgba(0,0,0,.2)', 0, 1, 5);
-        console.log(height);
         textBg.graphics.clear()
           .beginFill(backgroundColor)
           .drawRoundRect(line2End.x, line2End.y - height / 2 - padding.top, width + padding.left + padding.right, height + padding.top + padding.bottom, 5);
@@ -136,9 +135,6 @@ export class Tooltip {
       onUpdate() {
         text.alpha = scale.s;
         textBg.alpha = scale.s;
-        textBg.
-        // console.log(Math.min(scale.s, 0.4));
-        // textBg.alpha = Math.min(scale.s, 0.4);
         stage.update();
       }
     });

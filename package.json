@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "createjs": "^1.0.1",
+    "echarts": "^4.9.0",
+    "ramda": "^0.27.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
